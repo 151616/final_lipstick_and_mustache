@@ -1,0 +1,43 @@
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+#mustache_page{
+animation: mustache_page 20s infinite;
+}
+@keyframes mustache_page {
+    0%{background-color: blue;}
+    10%{background-color:purple;}
+    20%{background-color: pink;}
+    30%{background-color: green;}
+    40%{background-color: yellowgreen;}
+    50%{background-color: yellow;}
+    60%{background-color: orange;}
+    70%{background-color: orangered;}
+    80%{background-color: red;}
+    90%{background-color: darkred;}
+    100%{background-color: blue;}
+}
+#lipstick_page{
+    animation: lipstick_page 20s infinite;
+    }
+    @keyframes lipstick_page {
+        0%{background-color: blue;}
+        10%{background-color:darkred}
+        20%{background-color: red;}
+        30%{background-color: orangered;}
+        40%{background-color: orange;}
+        50%{background-color: yellow;}
+        60%{background-color: yellowgreen;}
+        70%{background-color: green;}
+        80%{background-color: pink;}
+        90%{background-color: purple;}
+        100%{background-color: blue;}
+    }
